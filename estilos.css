@@ -1,3 +1,30 @@
 body{
-    background-color: #FFD29C;
+    margin: 0px;
 }
+.cabecalho{
+    background-image: url("imagens/fundo-header.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 1200px;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+    .logo{
+        width: 170px;
+        height: 170px;
+        /* solid dotted dashed double*/
+        border: 10px double #FFD29C;
+        background-color: white;
+        padding: 10px;
+        border-radius: 100px;
+    }
+    .nome-loja{
+        font-size: 60px;
+        color: #F36444;
+        line-height: 100%;
+    }
