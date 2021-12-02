@@ -3,6 +3,7 @@
     body{
     margin: 0px;
     font-family: 'Roboto mono';
+    background-color: #f1dbc0;
     }
 
     .cabecalho{
@@ -11,6 +12,7 @@
     background-position-x: center;
     background-position-y: center;
     width: 1200px;
+    
 
     margin-top: 0px;
     margin-right: auto;
@@ -57,3 +59,75 @@
         font-size: 18px;
         font-weight: 500;
     }
+
+    .foto-banner{
+        width: 1200px;
+        height: 445px;
+       object-fit: cover;
+
+    }
+    .banner{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 5px solid #FB6066;
+    }
+    .bolos{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cardapio{
+        text-align: center;
+        color: #F36444;
+        font-family: 'roboto mono';
+        font-size: 20px;
+    }
+
+    .texto-colunas{
+        font-size: 12px;
+        color:#670D0F;
+        font-family: 'Roboto mono';
+        column-count: 4;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 22px;
+    }
+    .galeria{
+        background-color: #cc9a9c;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 50px solid #cc9a9c;
+        border-top: 10px solid #cc9a9c;
+    }
+    .fotos-titulo{
+        text-align: center;
+        color: #F36444;
+        font-family: 'roboto mono';
+        font-size: 20px;
+    }
+    .fotos-img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 30px;
+        margin-left: 120px;
+        border-top: 20px solid #cc9a9c;
+        border: 10px double #FB6066;
+    }
+    .local{
+        width: 1200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contatos{
+        text-align: center;
+        color: #F36444;
+        font-family: 'roboto mono';
+        font-size: 20px;
+    }
+   
