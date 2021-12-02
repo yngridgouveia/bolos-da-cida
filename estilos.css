@@ -5,6 +5,7 @@
     font-family: 'Roboto mono';
     background-color: #f1dbc0;
     }
+    
 
     .cabecalho{
     background-image: url("imagens/fundo-header.jpg");
@@ -130,4 +131,18 @@
         font-family: 'roboto mono';
         font-size: 20px;
     }
+    hr{
+        background-color: #cc9a9c;
+        border-bottom: 10px solid #FB6066;
+    }
+    .rodape{
+        text-align: center;
+        color: #F36444;
+        font-family: 'roboto mono';
+        font-size: 20px; 
+    }
+    .midias{
+        width: 48px;
+    }
+    
    
